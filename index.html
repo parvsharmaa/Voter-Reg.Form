@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Voters Registration Form</title>
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <div class="navbar" style="align-content: center;">
+            <table>
+                <tbody>
+                    <tr>
+                        <td><a href="#" class="icon"><img
+                                    src="https://internship.suvenconsultants.com/projects/Voter_FORM6/images/flag.png"
+                                    style="width: 140px;"></a></td>
+                        <td>
+                        </td>
+                        <td>
+                            <h1 style="font-family: 'Hind', sans-serif;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;राष्ट्रीय मतदान
+                                सेवा &nbsp; डेमो&nbsp;पोर्टल</h1>
+                        </td>
+                        <td>
+                            <h1>&nbsp;&nbsp;&nbsp;&nbsp;NATIONAL VOTERS' SERVICES
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DEMO&nbsp;&nbsp;PORTAL&nbsp;&nbsp;</h1>
+                        </td>
+
+                        <td><a href="#" class="endlogo"><img
+                                    src="https://internship.suvenconsultants.com/projects/Voter_FORM6/images/vote.png"
+                                    style="width: 140px;border-radius: 8px;"></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </header>
+
+    <br>
+
+    <!-- MAIN CONTENT -->
+
+    <div class="form-header">
+        <button type="button" class="btn">A+</button>
+        <button type="button" class="btn">A-</button>
+        <span class="lang">Select Language :
+            <select class="btn lang-selection" name="" id="">
+                <option>English</option>
+                <option>Hindi</option>
+            </select>
+        </span>
+    </div>
+
+
+    <span class="note">
+        <h3>Note: Fields marked with asterisks (<b style="color:rgb(255, 8, 8)"> * </b>) are mandatory</h3>
+    </span>
+
+
+    <div class="container">
+        <form action="" class="form1">
+            <div class="formheading">
+                Type 6 <br> [See rule 13(1) amd 26]
+            </div>
+            <div class="description">
+                Application for inclusion of name in the electoral roll for the first time due to the transfer
+                of voter or any other constituency from any one constituency
+            </div>
+            <br><br>
+            In Service
+            <br><br>
+            Electoral Registration Officer,
+            <br><br>
+            <span style="margin-left: 100px;"></span>
+            State
+            <sup style="color: red;">* </sup>
+            <select class="state-select" name="Select" id=""
+                style="width: 88px; margin-left: 10px; padding-left: 17px; font-size: 15px;">
+                <option value="null">Select</option>
+            </select>
+            <span style="margin-left:100px"></span>
+            District
+            <select class="district-select" name="Select" id=""
+                style="width:88px; margin-left:10px; padding-left:17px; font-size: 15px;">
+                <option value="null">Select</option>
+            </select>
+            <br><br>
+            <span style="margin-left:100px"></span>
+            Legislative Assembly / Parlimentary
+            <select class="assembly-select" name="Select" id=""
+                style="width:88px !important;margin-left:10px; padding-left:17px; font-size: 15px;">
+                <option value="null">Select</option>
+            </select>
+            <br>
+            <span style="margin-left:100px"></span>
+            constituency
+            <sup style="color:rgb(255, 8, 8)"> * </sup>
+            <br><br>
+            I request that my name be included in electoral rolls for all the aforesaid areas.
+            <br><br>
+            <ul class="radio">
+                <li><span style="margin-left:100px"></span><input type="radio" name="select" id=""> First time voter<br>
+                </li>
+                <li><span style="margin-left:100px"></span><input type="radio" name="select" id=""> Due to transfer from
+                    other meeting areas.</li>
+            </ul><br><br> Below are specifications in support of my claim to be included in the electoral rolls.
+            <br><br>
+
+
+            <div class="description">Mandatory specifications</div><br><br>
+            <div class="user-input">
+                <span style="margin-left:100px"></span>
+                Name<sup style="color:rgb(255, 8, 8)"> * </sup> <input type="text" name="" id="" placeholder="Your name"
+                    required="">
+                <br><br>
+                <span style="margin-left:100px"></span>
+                Last Name <sup style="color:rgb(255, 8, 8)"> * </sup> <input type="text" name="" id=""
+                    placeholder="Your Last name" required="">
+                <br><br>
+                <span style="margin-left:100px"></span>
+                Name of the applicant's relative
+                <sup style="color:rgb(255, 8, 8)"> * </sup> <input type="text" name="" id=""
+                    placeholder="Applicant's relative name" required="">
+                <br><br>
+                <span style="margin-left:100px"></span>
+                Nickname of the applicant's relative
+                <input type="text" name="" id="" placeholder="Nickname (Optional)">
+            </div>
+
+            <br><br>
+            <span style="margin-left:100px"></span>
+            Type of the relationship<sup style="color:rgb(255, 8, 8)"> * </sup> 
+            <select
+                class="mendatory-btn" name="Select" id="">
+                <option value="null">Select</option>
+                <option>Husband</option>
+                <option>Wife</option>
+                <option>Son</option>
+                <option>daughter</option>
+            </select>
+            <br><br>
+
+            <ul class="radio">
+                <li><span style="margin-left:100px"></span><input type="radio" name="select" id="" checked="checked">
+                    Age [on January 1 of the current calender]<sup style="color:rgb(255, 8, 8)"> * </sup>
+                    <input type="text" value="&nbsp;&nbsp;2019" class="field left" readonly="">
+                    <select class="mendatory-btn" name="Select" id="">
+                        <option value="null">Year</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                    </select>
+                    <select class="mendatory-btn" name="Select" id="">
+                        <option value="null">Month</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select><br><br>
+                </li>
+                <span style="margin-left:100px"></span>
+                <xml style="font-size:20px">Or</xml><br><br>
+                <li><span style="margin-left:100px"></span><input type="radio" name="select" id="">  Date of birth
+                    (in the form of day/ month/ year) <input type="date" name="" id="">
+                    <br><span style="margin-left:100px"></span>(if known)<sup style="color:rgb(255, 8, 8)"> * </sup>
+                </li>
+            </ul><br><br><span style="margin-left:100px"></span> Applicant's gender<sup style="color:rgb(255, 8, 8)">
+                * </sup><select class="mendatory-btn" name="" id="">
+                <option>Select</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Others</option>
+            </select>
+            
+            <br><br>
+
+            <div class="description">
+                Current address, whose applicant is nominally resident
+            </div>
+            <br><br>
+            <span style="margin-left:100px"></span>
+            House no.
+            <sup style="color:rgb(255, 8, 8)"> * </sup> <input type="text" name="" id=""
+                placeholder="your house number"
+                required="">
+                <br><br>
+                <span style="margin-left:100px"></span>
+                Street / area / location
+            <sup style="color:rgb(255, 8, 8)"> * </sup>
+            <input type="text" name="" id=""
+                placeholder="street/area/location"
+                required="">
+                <br><br>
+                <span
+                style="margin-left:100px"></span>City / Village: <sup style="color:rgb(255, 8, 8)"> * </sup> <input
+                type="text" name="" id=""
+                placeholder="city/village"
+                required="">
+                <br><br>
+                <span style="margin-left:100px"></span>
+                Post Office:
+            <sup style="color:rgb(255, 8, 8)"> * </sup> <input type="text" name="" id=""
+                placeholder="post office"
+                required="">
+                <br><br>
+                <span style="margin-left:100px"></span>
+                Pin Code <sup style="color:rgb(255, 8, 8)"> * </sup> <input type="text" name="" placeholder="pincode" id="" required="">
+                <br><br>
+
+                <span style="margin-left:100px"></span>
+                State / Union Territory <sup style="color:rgb(255, 8, 8)"> * </sup>
+                <select class="mendatory-btn" name="" id="">
+                <option>Select</option>
+            </select>
+            <br><br>
+            <span style="margin-left:100px"></span>District <sup style="color:rgb(255, 8, 8)"> *
+            </sup><select class="mendatory-btn" name="" id="">
+                <option>Select</option>
+            </select><br><br>
+            <hr><br><span style="margin-left:100px"></span>Family / Neighbour Epic No. <input type="text" name="" id=""
+                required=""><br><br>
+            <hr><br>
+
+
+            <div class="description">Optional specialties</div><br><span style="margin-left:100px"></span> Disability
+            (if any)
+            <br><br>
+            <fieldset><span style="margin-left:100px"></span>
+                <input type="checkbox" name="" id="">Visual impairment &nbsp;
+                <input type="checkbox" name="" id="">Speech and hearing impairment &nbsp;
+                <input type="checkbox" name="" id="">Motion disabling &nbsp;
+                <input type="checkbox" name="" id="">other &nbsp;
+                <input type="text" required="">
+            </fieldset><br><span style="margin-left:100px"></span> Email ID (optional) &nbsp; <input type="text"
+                name="" id="" required=""><br><br><span style="margin-left:100px"></span> Mobile Number (optional)
+            &nbsp;
+            <input type="text" name="input" required=""><br><br>
+
+
+            <div class="description">
+                Upload supporting documents (Supported formats .jpg, .png) (max. 1MB)
+            </div><br><br><span style="margin-left:100px"></span> Your photo<sup style="color:rgb(255, 8, 8)"> *
+            </sup><br>
+            <span style="margin-left:100px"></span><input type="file" name="" id="">
+            <br><span style="margin-left:100px"></span> Age proof<sup style="color:rgb(255, 8, 8)"> * </sup><br>
+            <span style="margin-left:100px"></span><input type="file" name="" id="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                style="margin-left:100px"></span> Document type<sup style="color:rgb(255, 8, 8)"> * </sup><select
+                class="mendatory-btn" name="" id="">
+                <option>Select</option>
+                <option>Aadhar card</option>
+                <option>Passport</option>
+                <option>Driving License</option>
+                <option>Voter ID</option>
+            </select>
+            <br><span style="margin-left:100px"></span> Adress proof<sup style="color:rgb(255, 8, 8)"> * </sup><br>
+            <span style="margin-left:100px"></span><input type="file" name="" id="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                style="margin-left:100px"></span> Document type<sup style="color:rgb(255, 8, 8)"> * </sup><select
+                class="mendatory-btn name="" id="">
+                <option>Select</option>
+                <option>Aadhar card</option>
+                <option>Passport</option>
+                <option>Driving License</option>
+                <option>Voter ID</option>
+            </select>
+            <br><br>
+            <div class="description">Declaration</div><br><br> I declare I declare that according to my best knowledge
+            and
+            belief <br> I am a citizen of India and of my birth; <br><span style="margin-left:100px"></span>City /
+            Village:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="" id="" required=""><br><span
+                style="margin-left:100px"></span><br><span style="margin-left:100px"></span>Select state
+            <sup style="color:rgb(255, 8, 8)"> * </sup><select class="mendatory-btn" name=""
+                id="">
+                <option>Select</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp; District
+            <sup style="color:rgb(255, 8, 8)"> * </sup>&nbsp;&nbsp;&nbsp;&nbsp;<select
+                class="mendatory-btn" name="" id="">
+                <option>Select</option>
+            </select><br><br><span style="margin-left:100px"></span>Date
+            <sup style="color:rgb(255, 8, 8);"> * </sup><input type="date" name="" id=""><br>  I am a nominally
+            resident in the address given in the above (date, month, year) above;
+            <br><br> I have not applied to include my name in the electoral roll for any other constituency;<br><br>
+            <ul class="radio">
+                <li><span style="margin-left:100px"></span><input type="radio" name="select" id="">My name has not
+                    been already included in the electoral roll for this or any other assembly / parliamentary
+                    constituency</li><br> <span style="margin-left:100px"></span>
+                <xml style="font-size:18px">Or</xml> <br><br>
+                <li><span style="margin-left:100px"></span><input type="radio" name="select" id="">My name would have
+                    been included in electoral rolls of the State's constituency, in which I was already residing in the
+                    address mentioned below, and if so, then
+                    I request that it be removed from that electoral roll. Go.</li>
+            </ul><br>
+            <hr><br><br><span style="margin-left:100px"></span>Location
+            <sup style="color:rgb(255, 8, 8)"> * </sup>&nbsp;&nbsp;&nbsp;<input type="text" name="" id=""
+                required="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;date <input type="date" name=""
+                id=""><br><br> I am afraid that the statement or declaration,
+            which is false, to whom I know it or believe that it is false or I do not believe in being true, the
+            People's Representation Act, 1950 (43 of 1950 ) Is punishable under section 31 <br><br><span
+                style="margin-left:100px"></span>Captcha <img src="https://internship.suvenconsultants.com/projects/Voter_FORM6/images/captcha.png" alt=""
+                style="width: 150px;">&nbsp;
+            <i class="fas fa-redo"></i> &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="" id="" required=""><br><br>
+
+            <span style="margin-left:100px"></span><span style="margin-left:100px"></span><span
+                style="margin-left:100px"></span><span style="margin-left:100px"></span><span
+                style="margin-left:100px"></span>
+                <br>
+            <input type="reset" class="submit-button" value="Reset"
+                style="margin-bottom:10px !important;  margin-left:388px; font-weight: bold;">
+            <input type="submit" class="submit-button"
+                style="margin-bottom:10px !important; margin-left:4px; font-weight: bold;" value="Submit">
+        </form>
+    </div>
+    <br>
+    <br>
+    <!-- FOOTER -->
+    <footer class="footer">
+        Copyright © 2021 Government of India. All Rights Reserved
+    </footer>
+</body>
+
+</html>
